@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './components/Hello';
+import HelloAgain from './components/HelloAgain';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const user = {
+  name: "Akmal",
+  age: "21 Tahun",
+  status: "Active"
+};
+
 root.render(
   <React.StrictMode>
+    <Hello user={user} />
+    <HelloAgain />
     <App />
   </React.StrictMode>
 );

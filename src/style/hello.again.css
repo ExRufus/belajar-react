@@ -1,0 +1,14 @@
+.btn {
+  background-color: rgb(0, 252, 0);
+  color: white;
+}
+
+.btn-sm {
+  background-color: rgb(255, 9, 9);
+  color: white;
+}
+
+.btn-success {
+  background-color: rgb(1, 120, 255);
+  color: white;
+}
